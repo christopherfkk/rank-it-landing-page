@@ -18,6 +18,7 @@ const Page: FunctionComponent = () => {
             <div className={styles.joinWaitlist}>JOIN WAITLIST</div>
           </div>
         </div>
+        <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
       </div>
       <div className={styles.problemSection}>
         <div className={styles.sectionHeader}>
@@ -185,7 +186,15 @@ const Page: FunctionComponent = () => {
           <div className={styles.joinWaitlist1}>JOIN WAITLIST</div>
         </div>
       </div>
-      <div className={styles.footer} />
+      <div className={styles.footer}>
+        <img className={styles.logoIcon1} alt="" src="/logo1@2x.png" />
+        <div className={styles.contact}>
+          <p className={styles.contactUs}>Contact us</p>
+          <p className={styles.blankLine}>christopherfkk@uni.minerva.edu</p>
+          <p className={styles.blankLine}>hugosyh@uni.minerva.edu</p>
+          <p className={styles.blankLine}>bentley@uni.minerva.edu</p>
+        </div>
+      </div>
     </div>
   );
 };

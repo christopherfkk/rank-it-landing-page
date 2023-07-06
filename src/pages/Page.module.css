@@ -47,8 +47,8 @@
 }
 .h1Copy {
   position: absolute;
-  top: calc(50% - 92px);
-  left: 197px;
+  top: 327px;
+  left: 203px;
   width: 635px;
   height: 183px;
   display: flex;
@@ -57,11 +57,20 @@
   justify-content: flex-start;
   gap: 20px;
 }
+.logoIcon {
+  position: absolute;
+  top: 99px;
+  left: 190px;
+  width: 173px;
+  height: 116px;
+  overflow: hidden;
+  object-fit: cover;
+}
 .header {
   position: relative;
   background-color: #fff2f2;
-  width: 1512px;
-  height: 800px;
+  width: 1516px;
+  height: 837px;
   overflow: hidden;
   flex-shrink: 0;
   text-align: left;
@@ -339,23 +348,49 @@
   padding: 0 0 50px;
   gap: 10px;
 }
+.logoIcon1 {
+  position: relative;
+  width: 140px;
+  height: 94px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.contactUs {
+  margin: 0;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Bebas Neue";
+}
+.contact {
+  position: relative;
+  display: inline-block;
+  width: 313px;
+  height: 100px;
+  flex-shrink: 0;
+}
 .footer,
 .page {
-  position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer {
   background-color: #fffcfc;
-  width: 1514px;
-  height: 246px;
-  flex-shrink: 0;
+  width: 1515px;
+  flex-direction: row;
+  padding: 37px 421px;
+  box-sizing: border-box;
+  gap: 10px;
+  font-size: 20px;
+  color: #000;
+  font-family: Manrope;
 }
 .page {
+  position: relative;
   width: 100%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   font-size: 64px;
   color: #171717;
