@@ -1,0 +1,51 @@
+.sectionHeaderText {
+  position: relative;
+  line-height: 75px;
+}
+.sectionHeader {
+  width: 1514px;
+  height: 226px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.wireframeIcon {
+  position: relative;
+  width: 221.25px;
+  height: 447.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.wireframe,
+.wireframeGroup {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.wireframeGroup {
+  width: 1503px;
+  height: 577px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 10px;
+}
+.wireframe {
+  position: relative;
+  background-color: #d9d9d9;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 64px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
