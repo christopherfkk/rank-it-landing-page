@@ -1,4 +1,5 @@
 {
+    "homepage": "https://christopherfkk.github.io/",
     "name": "rank-it-landing-page",
     "version": "0.1.0",
     "private": true,
@@ -25,7 +26,6 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
-    "homepage": "http://christopherfkk.github.io/rank-it-landing-page",
     "eslintConfig": {
         "root": true
     },
