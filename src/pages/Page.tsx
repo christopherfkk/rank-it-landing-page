@@ -67,14 +67,14 @@ const Page: FunctionComponent = () => {
           <img
             className={styles.wireframeIcon}
             alt=""
-            src="/wireframe@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe@2x.png"}
           />
         </div>
         <div className={styles.solution2Group}>
           <img
             className={styles.wireframeIcon}
             alt=""
-            src="/wireframe@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe@2x.png"}
           />
           <div className={styles.description}>
             <div className={styles.problem1Header}>
@@ -99,7 +99,7 @@ const Page: FunctionComponent = () => {
           <img
             className={styles.wireframeIcon}
             alt=""
-            src="/wireframe@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe@2x.png"}
           />
         </div>
         <div className={styles.sectionHeader1}>
@@ -114,32 +114,32 @@ const Page: FunctionComponent = () => {
           <img
             className={styles.wireframeIcon3}
             alt=""
-            src="/wireframe1@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe1@2x.png"}
           />
           <img
             className={styles.wireframeIcon3}
             alt=""
-            src="/wireframe2@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe2@2x.png"}
           />
           <img
             className={styles.wireframeIcon3}
             alt=""
-            src="/wireframe3@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe3@2x.png"}
           />
           <img
             className={styles.wireframeIcon3}
             alt=""
-            src="/wireframe4@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe4@2x.png"}
           />
           <img
             className={styles.wireframeIcon3}
             alt=""
-            src="/wireframe1@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe1@2x.png"}
           />
           <img
             className={styles.wireframeIcon3}
             alt=""
-            src="/wireframe2@2x.png"
+            src={process.env.PUBLIC_URL + "/wireframe2@2x.png"}
           />
         </div>
       </div>

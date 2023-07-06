@@ -7,7 +7,7 @@ const Wireframe: FunctionComponent = () => {
         <div className={styles.sectionHeaderText}>Wireframes</div>
       </div>
       <div className={styles.wireframeGroup}>
-        <img className={styles.wireframeIcon} alt="" src="/wireframe1@2x.png" />
+        <img className={styles.wireframeIcon} alt="" src="/wireframe2@2x.png" />
         <img className={styles.wireframeIcon} alt="" src="/wireframe2@2x.png" />
         <img className={styles.wireframeIcon} alt="" src="/wireframe3@2x.png" />
         <img className={styles.wireframeIcon} alt="" src="/wireframe4@2x.png" />
