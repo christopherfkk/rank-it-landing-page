@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rank-it-landing-page/static/css/main.3f8b21c7.css",
-    "main.js": "/rank-it-landing-page/static/js/main.5fd8536e.js",
-    "static/js/787.969f2994.chunk.js": "/rank-it-landing-page/static/js/787.969f2994.chunk.js",
-    "index.html": "/rank-it-landing-page/index.html",
-    "main.3f8b21c7.css.map": "/rank-it-landing-page/static/css/main.3f8b21c7.css.map",
-    "main.5fd8536e.js.map": "/rank-it-landing-page/static/js/main.5fd8536e.js.map",
-    "787.969f2994.chunk.js.map": "/rank-it-landing-page/static/js/787.969f2994.chunk.js.map"
+    "main.css": "/static/css/main.3f8b21c7.css",
+    "main.js": "/static/js/main.29d2ebce.js",
+    "static/js/787.969f2994.chunk.js": "/static/js/787.969f2994.chunk.js",
+    "index.html": "/index.html",
+    "main.3f8b21c7.css.map": "/static/css/main.3f8b21c7.css.map",
+    "main.29d2ebce.js.map": "/static/js/main.29d2ebce.js.map",
+    "787.969f2994.chunk.js.map": "/static/js/787.969f2994.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f8b21c7.css",
-    "static/js/main.5fd8536e.js"
+    "static/js/main.29d2ebce.js"
   ]
 }
