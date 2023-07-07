@@ -29,10 +29,10 @@
 }
 .background1Icon {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 1516px;
-  height: 837px;
+  top: calc(50% - 418.5px);
+  left: calc(50% - 758px);
+  width: 1581px;
+  height: 873px;
   object-fit: cover;
 }
 .pageHeader {
@@ -103,22 +103,15 @@
   overflow: hidden;
   object-fit: cover;
 }
-.header,
-.mdicalendarQuestion {
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
 .header {
+  position: relative;
   background-color: #fff2f2;
   width: 1516px;
   height: 837px;
+  overflow: hidden;
+  flex-shrink: 0;
   text-align: left;
   color: #fffcfc;
-}
-.mdicalendarQuestion {
-  width: 24px;
-  height: 24px;
 }
 .sectionHeaderText {
   position: relative;
@@ -276,6 +269,7 @@
   width: 1512px;
   flex-direction: row;
   box-sizing: border-box;
+  gap: 140px;
 }
 .solution1Group {
   height: 604px;
@@ -285,11 +279,9 @@
   padding: 60px 218px;
   align-items: center;
   justify-content: center;
-  gap: 168px;
 }
 .solution2Group {
   padding: 0 220px;
-  gap: 140px;
 }
 .solution,
 .solution2Group,
@@ -406,29 +398,35 @@
   position: relative;
   line-height: 30px;
 }
-.beta,
-.joinWaitlistButton1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .joinWaitlistButton1 {
   border-radius: 20px;
   background-color: #d7323c;
   width: 193px;
   height: 52px;
+  display: flex;
   flex-direction: row;
   padding: 10px 20px;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   font-size: 24px;
   color: #fffcfc;
 }
+.beta,
+.logoIcon1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
 .beta {
   background-color: #fff2f2;
-  overflow: hidden;
+  height: 765px;
+  display: flex;
   flex-direction: column;
   padding: 0 0 50px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   font-size: 72px;
 }
@@ -436,8 +434,6 @@
   position: relative;
   width: 140px;
   height: 94px;
-  overflow: hidden;
-  flex-shrink: 0;
   object-fit: cover;
 }
 .contactUs {

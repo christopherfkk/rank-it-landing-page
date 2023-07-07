@@ -34,7 +34,6 @@ const Page: FunctionComponent = () => {
         <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
       </div>
       <div className={styles.problemSection}>
-        <div className={styles.mdicalendarQuestion} />
         <div className={styles.sectionHeader}>
           <div className={styles.sectionHeaderText}>the Problem</div>
         </div>
