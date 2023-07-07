@@ -1,26 +1,46 @@
+.playerImage2,
+.playerImage2Icon {
+  position: absolute;
+  width: 1552px;
+  height: 1035px;
+}
+.playerImage2Icon {
+  top: 0;
+  left: 216px;
+  object-fit: cover;
+}
+.playerImage2 {
+  top: -104px;
+  left: -18px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #171717 64.61%,
+    rgba(23, 23, 23, 0)
+  );
+}
 .pageHeader {
-  align-self: stretch;
   position: relative;
   line-height: 75px;
   display: inline-block;
-  height: 57.5px;
+  width: 789px;
+  height: 57px;
   flex-shrink: 0;
 }
 .playRankGames {
   font-weight: 300;
 }
 .pageHeaderP {
-  align-self: stretch;
   position: relative;
   font-size: 24px;
   line-height: 30px;
   display: inline-block;
+  width: 601px;
   height: 98px;
   flex-shrink: 0;
   font-family: Manrope;
 }
 .headline {
-  width: 634px;
+  width: 789px;
   height: 186px;
   display: flex;
   flex-direction: column;
@@ -28,14 +48,15 @@
   justify-content: flex-start;
   gap: 30px;
 }
-.joinWaitlist {
+.joinText {
   position: relative;
   line-height: 20px;
 }
 .joinWaitlistButton {
   border-radius: 20px;
   background-color: #d7323c;
-  height: 40px;
+  width: 146px;
+  height: 52px;
   display: flex;
   flex-direction: row;
   padding: 10px 20px;
@@ -43,7 +64,6 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #fffcfc;
 }
 .h1Copy {
   position: absolute;
@@ -59,22 +79,29 @@
 }
 .logoIcon {
   position: absolute;
-  top: 99px;
-  left: 190px;
-  width: 173px;
-  height: 116px;
+  top: 111px;
+  left: 191px;
+  width: 171px;
+  height: 115px;
   overflow: hidden;
   object-fit: cover;
 }
-.header {
+.header,
+.mdicalendarQuestion {
   position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header {
   background-color: #fff2f2;
   width: 1516px;
   height: 837px;
-  overflow: hidden;
-  flex-shrink: 0;
   text-align: left;
-  color: #000;
+  color: #fffcfc;
+}
+.mdicalendarQuestion {
+  width: 24px;
+  height: 24px;
 }
 .sectionHeaderText {
   position: relative;
@@ -92,16 +119,23 @@
   align-items: center;
   justify-content: center;
 }
-.headline1,
-.paragram {
-  position: relative;
-  display: inline-block;
-  flex-shrink: 0;
-}
 .headline1 {
   align-self: stretch;
+  position: relative;
   line-height: 40px;
+  display: inline-block;
   height: 42px;
+  flex-shrink: 0;
+}
+.mdiswordCrossIcon,
+.paragram {
+  position: relative;
+  width: 385px;
+  flex-shrink: 0;
+}
+.mdiswordCrossIcon {
+  height: 93px;
+  overflow: hidden;
 }
 .paragram {
   font-size: 20px;
@@ -110,182 +144,212 @@
   font-family: Manrope;
   color: #000;
   text-align: left;
-  width: 385px;
+  display: inline-block;
   height: 141px;
 }
-.details,
-.problem1Header {
+.problem1,
+.problem1Header,
+.problem2,
+.problem3 {
   width: 386px;
-  height: 193px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+}
+.problem1Header {
+  height: 241px;
+  gap: 50px;
+}
+.problem1,
+.problem2,
+.problem3 {
+  height: 270px;
+}
+.problem2,
+.problem3 {
+  height: 316px;
+}
+.problem3 {
+  height: 345px;
+}
+.details,
+.problemSection,
+.sectionHeader1 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
 }
 .details {
   width: 1506px;
   height: 569px;
-  overflow: hidden;
-  flex-shrink: 0;
   flex-direction: row;
-  justify-content: center;
+  align-items: flex-start;
   gap: 50px;
-  font-size: 36px;
-  color: #d7323c;
+  font-size: 40px;
 }
-.description,
-.problemSection {
-  display: flex;
+.problemSection,
+.sectionHeader1 {
   flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
 }
 .problemSection {
   background-color: #d9d9d9;
   width: 1512px;
   height: 800px;
-  overflow: hidden;
-  flex-shrink: 0;
   padding: 220px 201px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
 }
-.description {
+.sectionHeader1 {
+  width: 1514px;
+  height: 226px;
+  padding: 10px;
+  font-size: 64px;
+}
+.paragraph2 {
+  position: relative;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  width: 385px;
+  height: 179px;
+  flex-shrink: 0;
+}
+.header1,
+.solutionSection {
   width: 386px;
-  height: 193px;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.header1 {
+  height: 241px;
+  gap: 20px;
+}
+.solutionSection {
+  height: 193px;
+}
+.wireframeIcon,
+.wireframes {
+  height: 596px;
+  overflow: hidden;
 }
 .wireframeIcon {
   position: relative;
   width: 297px;
-  height: 596px;
-  overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
 }
-.solution2Group,
-.solution3Group {
-  left: -1px;
-  width: 1512px;
-  height: 604px;
-  flex-direction: row;
-  padding: 60px 218px;
-  gap: 168px;
-}
-.solution3Group {
-  position: absolute;
-  top: 1479px;
-  overflow: hidden;
+.wireframes {
   display: flex;
-  box-sizing: border-box;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.solution2Group {
-  top: 860px;
-}
-.sectionHeader1,
 .solution1Group,
 .solution2Group {
-  position: absolute;
+  width: 1512px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.solution1Group {
+  height: 604px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: 60px 218px;
+  align-items: center;
+  justify-content: center;
+  gap: 168px;
+}
+.solution2Group {
+  padding: 0 220px;
+  gap: 140px;
+}
+.solution,
+.solution2Group,
+.solution3Group {
   overflow: hidden;
   display: flex;
-  box-sizing: border-box;
   align-items: center;
   justify-content: center;
 }
-.solution1Group {
-  top: 241px;
-  left: -1px;
+.solution3Group {
   width: 1512px;
   height: 604px;
-  flex-direction: row;
-  padding: 60px 218px;
-  gap: 168px;
-}
-.sectionHeader1 {
-  top: 0;
-  left: -2px;
-  width: 1514px;
-  height: 226px;
-  flex-direction: column;
-  padding: 10px;
-  font-size: 64px;
-}
-.solution,
-.wireframeIcon3 {
-  position: relative;
-  overflow: hidden;
   flex-shrink: 0;
+  flex-direction: row;
+  padding: 60px 220px;
+  box-sizing: border-box;
+  gap: 140px;
 }
 .solution {
   background-color: #fff2f2;
-  width: 1512px;
-  height: 2231px;
-  font-size: 36px;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 40px;
 }
-.wireframeIcon3 {
+.wireframeIcon6 {
+  position: relative;
   width: 221.25px;
   height: 447.5px;
+  overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
+}
+.wireframe,
+.wireframeGroup {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .wireframeGroup {
   width: 1503px;
   height: 577px;
-  overflow: hidden;
   flex-shrink: 0;
-  display: flex;
   flex-direction: row;
   padding: 10px;
   box-sizing: border-box;
   align-items: flex-start;
-  justify-content: center;
   gap: 10px;
 }
-.pilot1,
 .wireframe {
-  display: flex;
+  background-color: #f5f5f5;
   flex-direction: column;
-}
-.wireframe {
-  background-color: #d9d9d9;
-  overflow: hidden;
   align-items: center;
-  justify-content: center;
 }
-.pilot1 {
-  width: 386px;
-  align-items: flex-start;
-  justify-content: flex-start;
+.header4 {
+  height: 241px;
+  gap: 30px;
 }
-.tokyoJapan {
-  margin: 0;
-}
-.pilot2,
+.header4,
+.pilot1,
 .sectionDetails {
-  height: 193px;
-  display: flex;
-  align-items: flex-start;
-}
-.pilot2 {
   width: 386px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
-  color: #d7323c;
 }
 .sectionDetails {
   width: 1506px;
+  height: 193px;
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
   justify-content: center;
   gap: 100px;
-  font-size: 36px;
+  font-size: 40px;
 }
 .joinUs {
   margin: 0;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 40px;
   font-family: "Bebas Neue";
 }
@@ -298,7 +362,7 @@
   line-break: anywhere;
   width: 100%;
 }
-.paragram2 {
+.paragram3 {
   position: relative;
   display: flex;
   align-items: center;
@@ -319,7 +383,7 @@
   color: #000;
   font-family: Manrope;
 }
-.joinWaitlist1 {
+.joinWaitlist {
   position: relative;
   line-height: 30px;
 }
@@ -347,6 +411,7 @@
   flex-direction: column;
   padding: 0 0 50px;
   gap: 10px;
+  font-size: 72px;
 }
 .logoIcon1 {
   position: relative;
@@ -377,7 +442,7 @@
   justify-content: center;
 }
 .footer {
-  background-color: #fffcfc;
+  background-color: #fff;
   width: 1515px;
   flex-direction: row;
   padding: 37px 421px;

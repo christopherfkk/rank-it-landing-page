@@ -4,6 +4,12 @@ const Page: FunctionComponent = () => {
   return (
     <div className={styles.page}>
       <div className={styles.header}>
+        <img
+          className={styles.playerImage2Icon}
+          alt=""
+          src="/playerimage2@2x.png"
+        />
+        <div className={styles.playerImage2} />
         <div className={styles.h1Copy}>
           <div className={styles.headline}>
             <div className={styles.pageHeader}>Badminton made competitive</div>
@@ -15,37 +21,53 @@ const Page: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.joinWaitlistButton}>
-            <div className={styles.joinWaitlist}>JOIN WAITLIST</div>
+            <div className={styles.joinText}>JOIN WAITLIST</div>
           </div>
         </div>
         <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
       </div>
       <div className={styles.problemSection}>
+        <div className={styles.mdicalendarQuestion} />
         <div className={styles.sectionHeader}>
           <div className={styles.sectionHeaderText}>the Problem</div>
         </div>
         <div className={styles.details}>
-          <div className={styles.description}>
+          <div className={styles.problem1}>
             <div className={styles.problem1Header}>
               <div className={styles.headline1}>LACK OF COMPETITIVENESS</div>
+              <img
+                className={styles.mdiswordCrossIcon}
+                alt=""
+                src="/mdiswordcross.svg"
+              />
               <div className={styles.paragram}>
                 Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
                 dignissim imperdiet augue amet nisi adipiscing
               </div>
             </div>
           </div>
-          <div className={styles.description}>
-            <div className={styles.problem1Header}>
-              <div className={styles.headline1}>cannot track progress</div>
-              <div className={styles.paragram}>
-                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
-                dignissim imperdiet augue amet nisi adipiscing
-              </div>
-            </div>
-          </div>
-          <div className={styles.description}>
+          <div className={styles.problem2}>
             <div className={styles.problem1Header}>
               <div className={styles.headline1}>no consistent play</div>
+              <img
+                className={styles.mdiswordCrossIcon}
+                alt=""
+                src="/mdicalendar.svg"
+              />
+              <div className={styles.paragram}>
+                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
+                dignissim imperdiet augue amet nisi adipiscing
+              </div>
+            </div>
+          </div>
+          <div className={styles.problem3}>
+            <div className={styles.problem1Header}>
+              <div className={styles.headline1}>cannot track progress</div>
+              <img
+                className={styles.mdiswordCrossIcon}
+                alt=""
+                src="/mdichart.svg"
+              />
               <div className={styles.paragram}>
                 Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
                 dignissim imperdiet augue amet nisi adipiscing
@@ -55,56 +77,77 @@ const Page: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.solution}>
-        <div className={styles.solution3Group}>
-          <div className={styles.description}>
-            <div className={styles.problem1Header}>
-              <div className={styles.headline1}>Bayesian Ranking system</div>
-              <div className={styles.paragram}>
-                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
-                dignissim imperdiet augue amet nisi adipiscing
-              </div>
-            </div>
-          </div>
-          <img
-            className={styles.wireframeIcon}
-            alt=""
-            src={process.env.PUBLIC_URL + "/wireframe@2x.png"}
-          />
-        </div>
-        <div className={styles.solution2Group}>
-          <img
-            className={styles.wireframeIcon}
-            alt=""
-            src={process.env.PUBLIC_URL + "/wireframe@2x.png"}
-          />
-          <div className={styles.description}>
-            <div className={styles.problem1Header}>
-              <div className={styles.headline1}>Bayesian Ranking system</div>
-              <div className={styles.paragram}>
-                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
-                dignissim imperdiet augue amet nisi adipiscing
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.solution1Group}>
-          <div className={styles.description}>
-            <div className={styles.problem1Header}>
-              <div className={styles.headline1}>Bayesian Ranking system</div>
-              <div className={styles.paragram}>
-                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
-                dignissim imperdiet augue amet nisi adipiscing
-              </div>
-            </div>
-          </div>
-          <img
-            className={styles.wireframeIcon}
-            alt=""
-            src={process.env.PUBLIC_URL + "/wireframe@2x.png"}
-          />
-        </div>
         <div className={styles.sectionHeader1}>
           <div className={styles.sectionHeaderText}>OUR Solution</div>
+        </div>
+        <div className={styles.solution1Group}>
+          <div className={styles.solutionSection}>
+            <div className={styles.header1}>
+              <div className={styles.headline1}>Bayesian Ranking system</div>
+              <div className={styles.paragraph2}>
+                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
+                dignissim imperdiet augue amet nisi adipiscing
+              </div>
+            </div>
+          </div>
+          <div className={styles.wireframes}>
+            <img
+              className={styles.wireframeIcon}
+              alt=""
+              src="/wireframe@2x.png"
+            />
+            <img
+              className={styles.wireframeIcon}
+              alt=""
+              src="/wireframe1@2x.png"
+            />
+          </div>
+        </div>
+        <div className={styles.solution2Group}>
+          <div className={styles.wireframes}>
+            <img
+              className={styles.wireframeIcon}
+              alt=""
+              src="/wireframe2@2x.png"
+            />
+            <img
+              className={styles.wireframeIcon}
+              alt=""
+              src="/wireframe3@2x.png"
+            />
+          </div>
+          <div className={styles.solutionSection}>
+            <div className={styles.header1}>
+              <div className={styles.headline1}>Skill-based matchmaking</div>
+              <div className={styles.paragraph2}>
+                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
+                dignissim imperdiet augue amet nisi adipiscing
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.solution3Group}>
+          <div className={styles.solutionSection}>
+            <div className={styles.header1}>
+              <div className={styles.headline1}>performance analytics</div>
+              <div className={styles.paragraph2}>
+                Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
+                dignissim imperdiet augue amet nisi adipiscing
+              </div>
+            </div>
+          </div>
+          <div className={styles.wireframes}>
+            <img
+              className={styles.wireframeIcon}
+              alt=""
+              src="/wireframe4@2x.png"
+            />
+            <img
+              className={styles.wireframeIcon}
+              alt=""
+              src="/wireframe5@2x.png"
+            />
+          </div>
         </div>
       </div>
       <div className={styles.wireframe}>
@@ -113,34 +156,34 @@ const Page: FunctionComponent = () => {
         </div>
         <div className={styles.wireframeGroup}>
           <img
-            className={styles.wireframeIcon3}
+            className={styles.wireframeIcon6}
             alt=""
-            src={process.env.PUBLIC_URL + "/wireframe1@2x.png"}
+            src="/wireframe6@2x.png"
           />
           <img
-            className={styles.wireframeIcon3}
+            className={styles.wireframeIcon6}
             alt=""
-            src={process.env.PUBLIC_URL + "/wireframe2@2x.png"}
+            src="/wireframe7@2x.png"
           />
           <img
-            className={styles.wireframeIcon3}
+            className={styles.wireframeIcon6}
             alt=""
-            src={process.env.PUBLIC_URL + "/wireframe3@2x.png"}
+            src="/wireframe8@2x.png"
           />
           <img
-            className={styles.wireframeIcon3}
+            className={styles.wireframeIcon6}
             alt=""
-            src={process.env.PUBLIC_URL + "/wireframe4@2x.png"}
+            src="/wireframe9@2x.png"
           />
           <img
-            className={styles.wireframeIcon3}
+            className={styles.wireframeIcon6}
             alt=""
-            src={process.env.PUBLIC_URL + "/wireframe1@2x.png"}
+            src="/wireframe10@2x.png"
           />
           <img
-            className={styles.wireframeIcon3}
+            className={styles.wireframeIcon6}
             alt=""
-            src={process.env.PUBLIC_URL + "/wireframe2@2x.png"}
+            src="/wireframe11@2x.png"
           />
         </div>
       </div>
@@ -150,7 +193,7 @@ const Page: FunctionComponent = () => {
         </div>
         <div className={styles.sectionDetails}>
           <div className={styles.pilot1}>
-            <div className={styles.problem1Header}>
+            <div className={styles.header4}>
               <div className={styles.headline1}>Hyderabad, india 🇮🇳</div>
               <div className={styles.paragram}>
                 Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
@@ -158,11 +201,9 @@ const Page: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className={styles.pilot2}>
-            <div className={styles.problem1Header}>
-              <div className={styles.headline1}>
-                <p className={styles.tokyoJapan}>Tokyo, japan 🇯🇵</p>
-              </div>
+          <div className={styles.pilot1}>
+            <div className={styles.header4}>
+              <div className={styles.headline1}>Tokyo, Japan 🇯🇵</div>
               <div className={styles.paragram}>
                 Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
                 dignissim imperdiet augue amet nisi adipiscing
@@ -171,7 +212,7 @@ const Page: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.sectionDetails1}>
-          <div className={styles.paragram2}>
+          <div className={styles.paragram3}>
             <span className={styles.paragramTxt}>
               <p className={styles.joinUs}>Join us</p>
               <p className={styles.blankLine}>&nbsp;</p>
@@ -183,7 +224,7 @@ const Page: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.joinWaitlistButton1}>
-          <div className={styles.joinWaitlist1}>JOIN WAITLIST</div>
+          <div className={styles.joinWaitlist}>JOIN WAITLIST</div>
         </div>
       </div>
       <div className={styles.footer}>

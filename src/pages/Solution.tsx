@@ -13,10 +13,18 @@ const Solution: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <img className={styles.wireframeIcon} alt="" src="/wireframe@2x.png" />
+        <img
+          className={styles.wireframeIcon}
+          alt=""
+          src="/wireframe12@2x.png"
+        />
       </div>
       <div className={styles.solution2Group}>
-        <img className={styles.wireframeIcon} alt="" src="/wireframe@2x.png" />
+        <img
+          className={styles.wireframeIcon}
+          alt=""
+          src="/wireframe12@2x.png"
+        />
         <div className={styles.description}>
           <div className={styles.header}>
             <div className={styles.headline}>Bayesian Ranking system</div>
@@ -37,7 +45,11 @@ const Solution: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <img className={styles.wireframeIcon} alt="" src="/wireframe@2x.png" />
+        <img
+          className={styles.wireframeIcon}
+          alt=""
+          src="/wireframe12@2x.png"
+        />
       </div>
       <div className={styles.sectionHeader}>
         <div className={styles.sectionHeaderText}>OUR Solution</div>
