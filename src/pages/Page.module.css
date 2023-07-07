@@ -29,7 +29,7 @@
 }
 .background1Icon {
   position: absolute;
-  top: calc(50% - 418.5px);
+  top: calc(50% - 435.5px);
   left: calc(50% - 758px);
   width: 1581px;
   height: 873px;
@@ -107,7 +107,7 @@
   position: relative;
   background-color: #fff2f2;
   width: 1516px;
-  height: 837px;
+  height: 877px;
   overflow: hidden;
   flex-shrink: 0;
   text-align: left;
