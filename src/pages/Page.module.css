@@ -1,22 +1,39 @@
-.playerImage2,
 .playerImage2Icon {
   position: absolute;
+  top: 62px;
+  left: 470px;
   width: 1552px;
   height: 1035px;
-}
-.playerImage2Icon {
-  top: 0;
-  left: 216px;
   object-fit: cover;
 }
 .playerImage2 {
-  top: -104px;
-  left: -18px;
+  position: absolute;
+  top: -3px;
+  left: 55px;
   background: radial-gradient(
     50% 50%at 50% 50%,
     #171717 64.61%,
     rgba(23, 23, 23, 0)
   );
+  width: 1801px;
+  height: 1076px;
+}
+.background {
+  position: absolute;
+  top: -142px;
+  left: -254px;
+  width: 2000px;
+  height: 1053px;
+  overflow: hidden;
+  display: none;
+}
+.background1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1516px;
+  height: 837px;
+  object-fit: cover;
 }
 .pageHeader {
   position: relative;
@@ -69,8 +86,8 @@
   position: absolute;
   top: 327px;
   left: 203px;
-  width: 635px;
-  height: 183px;
+  width: 695px;
+  height: 271px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -237,16 +254,18 @@
 }
 .wireframeIcon,
 .wireframes {
-  height: 596px;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .wireframeIcon {
   position: relative;
   width: 297px;
-  flex-shrink: 0;
+  height: 596px;
   object-fit: cover;
 }
 .wireframes {
+  width: 620px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;

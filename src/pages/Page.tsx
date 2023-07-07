@@ -4,12 +4,19 @@ const Page: FunctionComponent = () => {
   return (
     <div className={styles.page}>
       <div className={styles.header}>
+        <div className={styles.background}>
+          <img
+            className={styles.playerImage2Icon}
+            alt=""
+            src="/playerimage2@2x.png"
+          />
+          <div className={styles.playerImage2} />
+        </div>
         <img
-          className={styles.playerImage2Icon}
+          className={styles.background1Icon}
           alt=""
-          src="/playerimage2@2x.png"
+          src="/background-1@2x.png"
         />
-        <div className={styles.playerImage2} />
         <div className={styles.h1Copy}>
           <div className={styles.headline}>
             <div className={styles.pageHeader}>Badminton made competitive</div>
