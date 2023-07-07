@@ -29,10 +29,10 @@
 }
 .background1Icon {
   position: absolute;
-  top: calc(50% - 435.5px);
+  top: calc(50% - 450px);
   left: calc(50% - 758px);
   width: 1581px;
-  height: 873px;
+  height: 890px;
   object-fit: cover;
 }
 .pageHeader {
