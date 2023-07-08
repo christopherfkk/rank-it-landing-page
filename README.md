@@ -1,10 +1,21 @@
 
   # rank-it-landing-page
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+Landing page sections:
+- Header 
+- Problem section
+- Solution section
+- Wireframes
+- Pilot
+- Join waitlist Typeform
+- Footer
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+
+[ X ] Add Figma screens
+[ X ] Change the Problem section headline color
+[ X ] Add Header section photo?
+[  ] Add contents
+[  ] Add waitlist button logic. Type form?
+[  ] Add responsiveness for mobile
+[  ] Add section animated transition
+[  ] Add email hyperlink
