@@ -127,7 +127,7 @@
   padding: 10px 20px;
   text-align: left;
   font-size: 24px;
-  color: #fffcfc;
+  color: #fff;
 }
 .beta {
   position: relative;
@@ -138,7 +138,7 @@
   padding: 0 0 50px;
   gap: 10px;
   text-align: center;
-  font-size: 64px;
+  font-size: 72px;
   color: #171717;
   font-family: "Bebas Neue";
 }

@@ -43,7 +43,7 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #fffcfc;
+  color: #fff;
 }
 .h1Copy {
   position: absolute;
@@ -64,7 +64,7 @@
   height: 800px;
   overflow: hidden;
   text-align: left;
-  font-size: 64px;
+  font-size: 72px;
   color: #000;
   font-family: "Bebas Neue";
 }

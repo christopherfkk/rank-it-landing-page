@@ -1,310 +1,305 @@
-.playerImage2Icon {
-  position: absolute;
-  top: 62px;
-  left: 470px;
-  width: 1552px;
-  height: 1035px;
+.logoIcon {
+  position: relative;
+  width: 170px;
+  height: 132.44px;
   object-fit: cover;
 }
-.playerImage2 {
-  position: absolute;
-  top: -3px;
-  left: 55px;
-  background: radial-gradient(
-    50% 50%at 50% 50%,
-    #171717 64.61%,
-    rgba(23, 23, 23, 0)
-  );
-  width: 1801px;
-  height: 1076px;
-}
-.background {
-  position: absolute;
-  top: -142px;
-  left: -254px;
-  width: 2000px;
-  height: 1053px;
-  overflow: hidden;
-  display: none;
-}
-.background1Icon {
-  position: absolute;
-  top: calc(50% - 450px);
-  left: calc(50% - 758px);
-  width: 1581px;
-  height: 890px;
-  object-fit: cover;
-}
-.pageHeader {
+.header {
+  align-self: stretch;
+  flex: 1;
   position: relative;
   line-height: 75px;
-  display: inline-block;
-  width: 789px;
-  height: 57px;
-  flex-shrink: 0;
 }
 .playRankGames {
   font-weight: 300;
 }
-.pageHeaderP {
+.para,
+.text1 {
+  align-self: stretch;
+  flex: 1;
+}
+.para {
   position: relative;
   font-size: 24px;
   line-height: 30px;
-  display: inline-block;
-  width: 601px;
-  height: 98px;
-  flex-shrink: 0;
   font-family: Manrope;
 }
-.headline {
-  width: 789px;
-  height: 186px;
+.text1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 20px;
 }
-.joinText {
+.text2 {
   position: relative;
   line-height: 20px;
 }
-.joinWaitlistButton {
+.button {
   border-radius: 20px;
   background-color: #d7323c;
-  width: 146px;
-  height: 52px;
   display: flex;
   flex-direction: row;
   padding: 10px 20px;
-  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   font-size: 18px;
 }
-.h1Copy {
-  position: absolute;
-  top: 327px;
-  left: 203px;
-  width: 695px;
-  height: 271px;
+.headline,
+.text {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 20px;
 }
-.logoIcon {
-  position: absolute;
-  top: 111px;
-  left: 191px;
-  width: 171px;
-  height: 115px;
-  overflow: hidden;
-  object-fit: cover;
+.text {
+  align-self: stretch;
+  gap: 30px;
 }
-.header {
+.headline {
+  height: 926px;
+  padding: 150px 0 300px;
+  box-sizing: border-box;
+  gap: 100px;
+  z-index: 2;
+}
+.backgroundIcon {
+  flex: 1;
   position: relative;
-  background-color: #fff2f2;
-  width: 1516px;
-  height: 877px;
+  max-width: 100%;
   overflow: hidden;
-  flex-shrink: 0;
+  height: 926px;
+  object-fit: cover;
+  margin-left: -390px;
+}
+.headerSection,
+.section {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section {
+  flex: 1;
+  padding: 0 0 0 200px;
+  align-items: center;
   text-align: left;
-  color: #fffcfc;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Bebas Neue";
+}
+.headerSection {
+  align-self: stretch;
+  background-color: #171717;
+  align-items: flex-start;
 }
 .sectionHeaderText {
+  flex: 1;
   position: relative;
   line-height: 75px;
 }
-.sectionHeader {
-  width: 1514px;
-  height: 226px;
+.header1 {
+  align-self: stretch;
   overflow: hidden;
-  flex-shrink: 0;
   display: flex;
-  flex-direction: column;
-  padding: 10px;
-  box-sizing: border-box;
-  align-items: center;
+  flex-direction: row;
+  padding: 10px 0;
+  align-items: flex-start;
   justify-content: center;
 }
 .headline1 {
+  flex: 1;
+  line-height: 40px;
+}
+.headline1,
+.mdiswordCrossIcon,
+.paragram {
+  align-self: stretch;
+  position: relative;
+}
+.mdiswordCrossIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 93px;
+  flex-shrink: 0;
+}
+.paragram {
+  flex: 1;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.problem1 {
+  flex: 1;
+  height: 323.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.paragraph {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  text-align: left;
+}
+.problem2 {
+  flex: 1;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.details,
+.section1 {
+  align-self: stretch;
+  display: flex;
+  gap: 50px;
+}
+.details {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+.section1 {
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.problemSection,
+.sectionHeader {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.problemSection {
+  background-color: #f5f5f5;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sectionHeader {
+  flex-direction: row;
+  padding: 50px 0;
+  align-items: center;
+}
+.headline4,
+.paragraph2 {
   align-self: stretch;
   position: relative;
   line-height: 40px;
-  display: inline-block;
-  height: 42px;
-  flex-shrink: 0;
-}
-.mdiswordCrossIcon,
-.paragram {
-  position: relative;
-  width: 385px;
-  flex-shrink: 0;
-}
-.mdiswordCrossIcon {
-  height: 93px;
-  overflow: hidden;
-}
-.paragram {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 300;
-  font-family: Manrope;
-  color: #000;
-  text-align: left;
-  display: inline-block;
-  height: 141px;
-}
-.problem1,
-.problem1Header,
-.problem2,
-.problem3 {
-  width: 386px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.problem1Header {
-  height: 241px;
-  gap: 50px;
-}
-.problem1,
-.problem2,
-.problem3 {
-  height: 270px;
-}
-.problem2,
-.problem3 {
-  height: 316px;
-}
-.problem3 {
-  height: 345px;
-}
-.details,
-.problemSection,
-.sectionHeader1 {
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-}
-.details {
-  width: 1506px;
-  height: 569px;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 50px;
-  font-size: 40px;
-}
-.problemSection,
-.sectionHeader1 {
-  flex-direction: column;
-  box-sizing: border-box;
-  align-items: center;
-}
-.problemSection {
-  background-color: #d9d9d9;
-  width: 1512px;
-  height: 800px;
-  padding: 220px 201px;
-}
-.sectionHeader1 {
-  width: 1514px;
-  height: 226px;
-  padding: 10px;
-  font-size: 64px;
 }
 .paragraph2 {
-  position: relative;
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
   font-family: Manrope;
   color: #000;
   text-align: left;
-  display: inline-block;
-  width: 385px;
-  height: 179px;
-  flex-shrink: 0;
 }
-.header1,
-.solutionSection {
-  width: 386px;
+.group {
+  align-self: stretch;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-}
-.header1 {
-  height: 241px;
+  justify-content: center;
   gap: 20px;
 }
-.solutionSection {
-  height: 193px;
+.wireframeIcon {
+  aspect-ratio: 0.4983;
 }
 .wireframeIcon,
-.wireframes {
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.wireframeIcon {
+.wireframeIcon1 {
   position: relative;
   width: 297px;
   height: 596px;
+  overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
 }
 .wireframes {
-  width: 620px;
-  height: 600px;
+  align-self: stretch;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.solution1Group,
-.solution2Group {
-  width: 1512px;
-  flex-direction: row;
-  box-sizing: border-box;
-  gap: 140px;
 }
 .solution1Group {
-  height: 604px;
+  align-self: stretch;
+  gap: 140px;
+  text-align: center;
+  font-size: 40px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+.solution1Group,
+.wireframes1 {
   overflow: hidden;
-  flex-shrink: 0;
   display: flex;
-  padding: 60px 218px;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.solution2Group {
-  padding: 0 220px;
 }
 .solution,
-.solution2Group,
-.solution3Group {
-  overflow: hidden;
+.solutionSection {
+  align-self: stretch;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-}
-.solution3Group {
-  width: 1512px;
-  height: 604px;
-  flex-shrink: 0;
-  flex-direction: row;
-  padding: 60px 220px;
-  box-sizing: border-box;
-  gap: 140px;
 }
 .solution {
   background-color: #fff2f2;
-  flex-direction: column;
+  overflow: hidden;
+  padding: 100px 150px;
+  align-items: center;
   gap: 50px;
-  font-size: 40px;
+}
+.solutionSection {
+  align-items: flex-start;
+  text-align: center;
+  font-size: 72px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+.sectionHeaderText2 {
+  position: relative;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 354px;
+  height: 133px;
+  flex-shrink: 0;
+}
+.sectionHeader1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: center;
 }
 .wireframeIcon6 {
   position: relative;
@@ -314,126 +309,138 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.wireframe,
-.wireframeGroup {
-  overflow: hidden;
+.wireframeGroup,
+.wireframes3 {
   display: flex;
   justify-content: center;
 }
 .wireframeGroup {
-  width: 1503px;
-  height: 577px;
-  flex-shrink: 0;
+  width: 1414px;
   flex-direction: row;
-  padding: 10px;
+  padding: 10px 90px;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
 }
-.wireframe {
-  background-color: #f5f5f5;
+.wireframes3 {
   flex-direction: column;
+  padding: 100px 0;
+  gap: 50px;
+}
+.header2,
+.wireframeSection,
+.wireframes3 {
+  align-self: stretch;
   align-items: center;
 }
-.header4 {
-  height: 241px;
-  gap: 30px;
-}
-.header4,
-.pilot1,
-.sectionDetails {
-  width: 386px;
+.wireframeSection {
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.sectionDetails {
-  width: 1506px;
-  height: 193px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: row;
   justify-content: center;
-  gap: 100px;
-  font-size: 40px;
-}
-.joinUs {
-  margin: 0;
-  font-size: 40px;
-  line-height: 40px;
+  text-align: center;
+  font-size: 72px;
+  color: #171717;
   font-family: "Bebas Neue";
 }
-.blankLine {
-  margin: 0;
-  line-height: 25px;
-  font-weight: 300;
+.header2 {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 10px;
 }
-.paragramTxt {
-  line-break: anywhere;
-  width: 100%;
+.header2,
+.pilot1,
+.pilots {
+  display: flex;
+  justify-content: center;
 }
-.paragram3 {
+.pilot1 {
+  flex: 1;
+  height: 152.78px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.pilots {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 200px;
+  align-items: flex-start;
+  gap: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+.headline9 {
   position: relative;
+  line-height: 40px;
+  height: 76.39px;
+  flex-shrink: 0;
+}
+.headline9,
+.join,
+.paragraph5 {
+  align-self: stretch;
   display: flex;
   align-items: center;
-  width: 385px;
-  height: 141px;
-  flex-shrink: 0;
-}
-.sectionDetails1 {
-  width: 1506px;
-  height: 193px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
-  font-size: 20px;
-  color: #000;
-  font-family: Manrope;
 }
-.joinWaitlist {
+.paragraph5 {
+  position: relative;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  height: 76.39px;
+  flex-shrink: 0;
+}
+.join {
+  overflow: hidden;
+  flex-direction: column;
+  font-size: 40px;
+  color: #000;
+}
+.button2 {
   position: relative;
   line-height: 30px;
 }
-.joinWaitlistButton1 {
+.betaSection,
+.button1,
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
   border-radius: 20px;
   background-color: #d7323c;
-  width: 193px;
-  height: 52px;
-  display: flex;
   flex-direction: row;
   padding: 10px 20px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
   text-align: left;
   font-size: 24px;
-  color: #fffcfc;
+  color: #fff;
 }
-.beta,
-.logoIcon1 {
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.beta {
-  background-color: #fff2f2;
-  height: 765px;
-  display: flex;
+.betaSection,
+.section2 {
+  align-self: stretch;
   flex-direction: column;
-  padding: 0 0 50px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-size: 72px;
+}
+.section2 {
+  padding: 50px 0;
+  gap: 50px;
+}
+.betaSection {
+  background-color: #fff2f2;
+  overflow: hidden;
 }
 .logoIcon1 {
   position: relative;
   width: 140px;
-  height: 94px;
+  height: 96px;
+  overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
 }
 .contactUs {
@@ -442,14 +449,16 @@
   line-height: 20px;
   font-family: "Bebas Neue";
 }
+.christopherfkkuniminervaedu {
+  margin: 0;
+  line-height: 25px;
+  font-weight: 300;
+}
 .contact {
   position: relative;
-  display: inline-block;
-  width: 313px;
-  height: 100px;
-  flex-shrink: 0;
 }
 .footer,
+.footerSection,
 .page {
   overflow: hidden;
   display: flex;
@@ -457,22 +466,98 @@
   justify-content: center;
 }
 .footer {
-  background-color: #fff;
-  width: 1515px;
+  align-self: stretch;
   flex-direction: row;
-  padding: 37px 421px;
-  box-sizing: border-box;
-  gap: 10px;
+  padding: 37px 0;
+  gap: 100px;
+  text-align: center;
   font-size: 20px;
   color: #000;
   font-family: Manrope;
 }
+.footerSection,
+.page {
+  flex-direction: column;
+}
+.footerSection {
+  align-self: stretch;
+  background-color: #fff;
+}
 .page {
   position: relative;
   width: 100%;
-  flex-direction: column;
   text-align: center;
-  font-size: 64px;
+  font-size: 72px;
   color: #171717;
   font-family: "Bebas Neue";
+}
+@media screen and (max-width: 1200px) {
+  .headline {
+    z-index: 2;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .backgroundIcon,
+  .headline,
+  .section {
+    flex: unset;
+    align-self: stretch;
+  }
+  .backgroundIcon {
+    margin-left: 0;
+  }
+  .section {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .headerSection {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .group {
+    flex: unset;
+    align-self: stretch;
+  }
+  .solution,
+  .solution1Group {
+    flex-direction: column;
+  }
+  .solutionSection {
+    gap: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .wireframeGroup {
+    flex-direction: column;
+  }
+  .pilot1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .pilots {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .problem1,
+  .problem2 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .details {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 37px;
+    box-sizing: border-box;
+  }
 }
