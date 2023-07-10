@@ -5,7 +5,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import Page from "./pages/Page";
-import Page1 from "./pages/Page1";
 import Header from "./pages/Header";
 import ProblemSection from "./pages/ProblemSection";
 import Solution from "./pages/Solution";
@@ -81,7 +80,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Page />} />
-      <Route path="/page" element={<Page1 />} />
+      <Route path="/page" element={<Page />} />
       <Route path="/header" element={<Header />} />
       <Route path="/problem-section" element={<ProblemSection />} />
       <Route path="/solution" element={<Solution />} />
