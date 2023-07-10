@@ -44,7 +44,17 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
+  position: relative;
+  line-height: 20px;
+  font-family: "Bebas Neue";
+  color: #d9d9d9;
+  border: none;
 }
+
+.button:hover {
+      background-color:#b3232c;
+}
+
 .headline,
 .text {
   flex: 1;

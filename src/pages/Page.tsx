@@ -1,6 +1,16 @@
 import { FunctionComponent } from "react";
 import styles from "./Page.module.css";
+import Form from './Typeform';
 const Page: FunctionComponent = () => {
+
+  const handleClickScroll = () => {
+    const element = document.getElementById('form');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className={styles.page}>
       <div className={styles.headerSection}>
@@ -17,9 +27,9 @@ const Page: FunctionComponent = () => {
                   <b>RankIT</b>
                 </div>
               </div>
-              <div className={styles.button}>
+              <button className={styles.button} onClick={handleClickScroll}>
                 <div className={styles.text2}>JOIN WAITLIST</div>
-              </div>
+              </button>
             </div>
           </div>
           <img
@@ -211,10 +221,10 @@ const Page: FunctionComponent = () => {
               that. Click below.
             </div>
           </div>
-          <div className={styles.button1}>
-            <div className={styles.button2}>JOIN WAITLIST</div>
-          </div>
         </div>
+      </div>
+      <div id="form" style={{ width: '100%'}}>
+        <Form/>
       </div>
       <div className={styles.footerSection}>
         <section className={styles.footer}>
