@@ -1,11 +1,12 @@
 {
-    "name": "rank-it-landing-page",
+    "name": "RankIT",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
+        "@typeform/embed-react": "^2.26.0",
         "@types/jest": "^29.5.0",
         "@types/node": "^16.11.14",
         "@types/react": "^18.0.28",

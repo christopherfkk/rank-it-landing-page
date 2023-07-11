@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./HeaderContainer.module.css";
-const HeaderContainer: FunctionComponent = () => {
+const HeaderContainer: FunctionComponent = (handleClickScroll) => {
   return (
     <section className={styles.headerSection}>
       <section className={styles.section}>
@@ -16,9 +16,13 @@ const HeaderContainer: FunctionComponent = () => {
                 <b>RankIT</b>
               </div>
             </div>
+
             <div className={styles.button}>
-              <div className={styles.text2}>JOIN WAITLIST</div>
+              <button className={styles.button}>
+                  <div className={styles.text2}>JOIN WAITLIST</div>
+              </button>
             </div>
+
           </div>
         </div>
         <img
