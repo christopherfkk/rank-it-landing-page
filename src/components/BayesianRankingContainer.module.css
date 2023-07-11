@@ -1,0 +1,79 @@
+.headline,
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.paragraph {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  text-align: left;
+}
+.group {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.wireframeIcon {
+  aspect-ratio: 0.4983;
+}
+.wireframeIcon,
+.wireframeIcon1 {
+  position: relative;
+  width: 297px;
+  height: 596px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.solution1Group,
+.wireframes {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.solution1Group {
+  gap: 140px;
+  text-align: center;
+  font-size: 40px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+@media screen and (max-width: 1200px) {
+  .group {
+    flex: unset;
+    align-self: stretch;
+  }
+  .solution1Group {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .headline {
+    font-size: 28px;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .wireframes {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .solution1Group {
+    gap: 50px;
+    padding-bottom: 20%;
+    box-sizing: border-box;
+  }
+}

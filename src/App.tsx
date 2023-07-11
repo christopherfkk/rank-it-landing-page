@@ -5,12 +5,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import Page from "./pages/Page";
-import Header from "./pages/Header";
-import ProblemSection from "./pages/ProblemSection";
-import Solution from "./pages/Solution";
-import Wireframe from "./pages/Wireframe";
-import Beta from "./pages/Beta";
-import Footer from "./pages/Footer";
 import { useEffect } from "react";
 
 function App() {
@@ -33,34 +27,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/page":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/header":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/problem-section":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/solution":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/wireframe":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/beta":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/footer":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -80,13 +46,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Page />} />
-      <Route path="/page" element={<Page />} />
-      <Route path="/header" element={<Header />} />
-      <Route path="/problem-section" element={<ProblemSection />} />
-      <Route path="/solution" element={<Solution />} />
-      <Route path="/wireframe" element={<Wireframe />} />
-      <Route path="/beta" element={<Beta />} />
-      <Route path="/footer" element={<Footer />} />
     </Routes>
   );
 }

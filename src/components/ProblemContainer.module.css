@@ -1,0 +1,139 @@
+.sectionHeaderText {
+  flex: 1;
+  position: relative;
+  line-height: 75px;
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+.headline {
+  line-height: 40px;
+  display: inline-block;
+  height: 90.5px;
+}
+.headline,
+.mdiswordCrossIcon,
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.mdiswordCrossIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 93px;
+}
+.paragraph {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90.5px;
+}
+.problem1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.mdicalendarIcon,
+.paragraph1,
+.paragraph2 {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.mdicalendarIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 93px;
+}
+.paragraph1,
+.paragraph2 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  height: 90.5px;
+}
+.details {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+.problemSection,
+.section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  padding: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.problemSection {
+  background-color: #f5f5f5;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: 72px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+@media screen and (max-width: 960px) {
+  .problem1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .details {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sectionHeaderText {
+    font-size: 48px;
+  }
+  .headline {
+    font-size: 28px;
+    height: 45px;
+  }
+  .mdiswordCrossIcon {
+    height: 93px;
+  }
+  .paragraph {
+    flex: 1;
+  }
+  .paragraph2 {
+    height: 120px;
+  }
+  .section {
+    padding: 10%;
+    box-sizing: border-box;
+  }
+}

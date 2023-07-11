@@ -1,0 +1,66 @@
+.sectionHeaderText {
+  flex: 1;
+  position: relative;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+}
+.sectionHeader,
+.solution,
+.solutionSection {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.sectionHeader {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 50px 0;
+  align-items: center;
+}
+.solution,
+.solutionSection {
+  flex-direction: column;
+}
+.solution {
+  background-color: #fff2f2;
+  overflow: hidden;
+  padding: 100px 150px;
+  align-items: center;
+  gap: 50px;
+}
+.solutionSection {
+  align-items: flex-start;
+  text-align: center;
+  font-size: 72px;
+  color: #171717;
+  font-family: "Bebas Neue";
+}
+@media screen and (max-width: 1200px) {
+  .solution {
+    flex-direction: column;
+  }
+  .solutionSection {
+    gap: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sectionHeaderText {
+    font-size: 48px;
+    align-self: stretch;
+    height: auto;
+  }
+  .sectionHeader {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+  }
+  .solution {
+    padding: 10%;
+    box-sizing: border-box;
+  }
+}
