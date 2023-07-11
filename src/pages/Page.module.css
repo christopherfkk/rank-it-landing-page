@@ -119,23 +119,23 @@
   justify-content: center;
 }
 .headline1 {
-  flex: 1;
   line-height: 40px;
+  display: inline-block;
+  height: 90.5px;
 }
 .headline1,
 .mdiswordCrossIcon,
 .paragram {
   align-self: stretch;
   position: relative;
+  flex-shrink: 0;
 }
 .mdiswordCrossIcon {
   max-width: 100%;
   overflow: hidden;
   height: 93px;
-  flex-shrink: 0;
 }
 .paragram {
-  flex: 1;
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
@@ -144,74 +144,87 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 90.5px;
 }
 .problem1 {
   flex: 1;
-  height: 323.5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 50px;
 }
-.paragraph {
+.mdicalendarIcon,
+.paragraph,
+.paragraph1 {
   align-self: stretch;
-  flex: 1;
   position: relative;
+  flex-shrink: 0;
+}
+.mdicalendarIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 93px;
+}
+.paragraph,
+.paragraph1 {
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
   font-family: Manrope;
   color: #000;
   text-align: left;
-}
-.problem2 {
-  flex: 1;
-  height: 374px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 50px;
-}
-.details,
-.section1 {
-  align-self: stretch;
-  display: flex;
-  gap: 50px;
+  display: inline-block;
+  height: 90.5px;
 }
 .details {
+  align-self: stretch;
   overflow: hidden;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
+  gap: 50px;
   text-align: center;
   font-size: 40px;
   color: #171717;
   font-family: "Bebas Neue";
 }
+.problemSection,
 .section1 {
+  align-self: stretch;
+  display: flex;
   flex-direction: column;
+}
+.section1 {
   padding: 100px;
   align-items: center;
   justify-content: flex-start;
-}
-.problemSection,
-.sectionHeader {
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
+  gap: 50px;
 }
 .problemSection {
   background-color: #f5f5f5;
-  flex-direction: column;
+  overflow: hidden;
   align-items: flex-start;
+  justify-content: center;
+}
+.sectionHeader,
+.sectionHeaderText1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionHeaderText1 {
+  flex: 1;
+  position: relative;
+  line-height: 75px;
+  height: 75px;
 }
 .sectionHeader {
+  align-self: stretch;
+  overflow: hidden;
   flex-direction: row;
   padding: 50px 0;
-  align-items: center;
 }
 .headline4,
 .paragraph2 {
@@ -264,6 +277,7 @@
   color: #171717;
   font-family: "Bebas Neue";
 }
+.solution,
 .solution1Group,
 .wireframes1 {
   overflow: hidden;
@@ -272,44 +286,39 @@
   align-items: center;
   justify-content: center;
 }
-.solution,
-.solutionSection {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .solution {
+  align-self: stretch;
   background-color: #fff2f2;
-  overflow: hidden;
+  flex-direction: column;
   padding: 100px 150px;
-  align-items: center;
   gap: 50px;
 }
 .solutionSection {
+  flex-direction: column;
   align-items: flex-start;
   text-align: center;
   font-size: 72px;
   color: #171717;
   font-family: "Bebas Neue";
 }
+.sectionHeader1,
+.sectionHeaderText2,
+.solutionSection {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
 .sectionHeaderText2 {
+  flex: 1;
   position: relative;
   line-height: 75px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 354px;
-  height: 133px;
-  flex-shrink: 0;
 }
 .sectionHeader1 {
   overflow: hidden;
-  display: flex;
   flex-direction: row;
   padding: 10px;
   align-items: flex-start;
-  justify-content: center;
 }
 .wireframeIcon6 {
   position: relative;
@@ -319,17 +328,13 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.wireframeGroup,
-.wireframes3 {
-  display: flex;
-  justify-content: center;
-}
 .wireframeGroup {
-  width: 1414px;
+  align-self: stretch;
+  display: flex;
   flex-direction: row;
   padding: 10px 90px;
-  box-sizing: border-box;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .wireframes3 {
@@ -341,13 +346,13 @@
 .wireframeSection,
 .wireframes3 {
   align-self: stretch;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 .wireframeSection {
   background-color: #f5f5f5;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
   font-size: 72px;
   color: #171717;
@@ -358,21 +363,52 @@
   flex-direction: row;
   padding: 10px;
 }
-.header2,
-.pilot1,
-.pilots {
-  display: flex;
-  justify-content: center;
+.headline7,
+.paragram1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+  display: inline-block;
+  height: 61.39px;
+  flex-shrink: 0;
+}
+.paragram1 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  text-align: left;
 }
 .pilot1 {
   flex: 1;
-  height: 152.78px;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 30px;
 }
+.paragram2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  font-family: Manrope;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  height: 61.39px;
+  flex-shrink: 0;
+}
+.headline9,
+.paragraph5,
 .pilots {
   align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.pilots {
   overflow: hidden;
   flex-direction: row;
   padding: 0 200px;
@@ -383,59 +419,34 @@
   color: #171717;
   font-family: "Bebas Neue";
 }
-.headline9 {
+.headline9,
+.paragraph5 {
   position: relative;
   line-height: 40px;
+  align-items: center;
   height: 76.39px;
   flex-shrink: 0;
 }
-.headline9,
-.join,
 .paragraph5 {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.paragraph5 {
-  position: relative;
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
   font-family: Manrope;
-  height: 76.39px;
-  flex-shrink: 0;
 }
 .join {
   overflow: hidden;
-  flex-direction: column;
+  padding: 0 10px;
   font-size: 40px;
   color: #000;
 }
-.button2 {
-  position: relative;
-  line-height: 30px;
-}
 .betaSection,
-.button1,
-.section2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.button1 {
-  border-radius: 20px;
-  background-color: #d7323c;
-  flex-direction: row;
-  padding: 10px 20px;
-  text-align: left;
-  font-size: 24px;
-  color: #fff;
-}
-.betaSection,
+.join,
 .section2 {
   align-self: stretch;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .section2 {
   padding: 50px 0;
@@ -473,13 +484,12 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .footer {
   align-self: stretch;
   flex-direction: row;
-  padding: 37px 0;
-  gap: 100px;
+  padding: 40px 300px;
+  justify-content: space-between;
   text-align: center;
   font-size: 20px;
   color: #000;
@@ -488,6 +498,7 @@
 .footerSection,
 .page {
   flex-direction: column;
+  justify-content: center;
 }
 .footerSection {
   align-self: stretch;
@@ -552,8 +563,7 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .problem1,
-  .problem2 {
+  .problem1 {
     flex: unset;
     align-self: stretch;
   }
@@ -562,12 +572,133 @@
   }
 }
 @media screen and (max-width: 420px) {
+  .logoIcon {
+    width: 85px;
+    height: 66px;
+  }
+  .header {
+    font-size: 48px;
+    line-height: 110%;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .text {
+    gap: 30px;
+  }
+  .headline,
+  .section {
+    box-sizing: border-box;
+  }
+  .headline {
+    padding-bottom: 150px;
+  }
+  .section {
+    gap: 0;
+  }
+  .headerSection,
+  .section {
+    padding-left: 0;
+  }
+  .sectionHeaderText {
+    font-size: 48px;
+  }
+  .headline1 {
+    font-size: 28px;
+    height: 45px;
+  }
+  .mdiswordCrossIcon {
+    height: 93px;
+  }
+  .paragram {
+    flex: 1;
+  }
+  .paragraph1 {
+    height: 120px;
+  }
+  .section1 {
+    padding: 10%;
+    box-sizing: border-box;
+  }
+  .sectionHeaderText1 {
+    font-size: 48px;
+    align-self: stretch;
+    height: auto;
+  }
+  .sectionHeader {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+  }
+  .headline4 {
+    font-size: 28px;
+  }
+  .paragraph2 {
+    font-size: 18px;
+  }
+  .wireframes {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .solution1Group {
+    gap: 50px;
+    padding-bottom: 20%;
+    box-sizing: border-box;
+  }
+  .wireframes1 {
+    flex-direction: column;
+  }
+  .solution {
+    padding: 10%;
+    box-sizing: border-box;
+  }
+  .sectionHeaderText2 {
+    font-size: 48px;
+    line-height: 75px;
+  }
+  .header2,
+  .sectionHeader1 {
+    padding: 0 10%;
+    box-sizing: border-box;
+  }
+  .header2 {
+    padding: 0;
+  }
+  .headline7 {
+    font-size: 28px;
+  }
+  .paragram1,
+  .paragram2 {
+    font-size: 18px;
+  }
+  .paragram2 {
+    height: 80px;
+  }
+  .pilots {
+    gap: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+  .headline9 {
+    font-size: 28px;
+  }
+  .paragraph5 {
+    font-size: 18px;
+  }
+  .footer,
+  .join {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
   .footer {
     flex-direction: column;
     gap: 50px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 37px;
-    box-sizing: border-box;
   }
 }
