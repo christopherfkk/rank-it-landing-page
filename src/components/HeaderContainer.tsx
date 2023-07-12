@@ -4,6 +4,7 @@ const HeaderContainer: FunctionComponent = (handleClickScroll) => {
   return (
     <section className={styles.headerSection}>
       <section className={styles.section}>
+
         <div className={styles.headline}>
           <img className={styles.logoIcon} alt="" src="/logo1@2x.png" />
           <div className={styles.text}>
@@ -17,19 +18,21 @@ const HeaderContainer: FunctionComponent = (handleClickScroll) => {
               </div>
             </div>
 
-            <div className={styles.button}>
+            <div>
               <button className={styles.button}>
-                  <div className={styles.text2}>JOIN WAITLIST</div>
+                JOIN WAITLIST
               </button>
             </div>
 
           </div>
         </div>
+
         <img
           className={styles.backgroundIcon}
           alt=""
           src="/background-blur@2x.png"
         />
+
       </section>
     </section>
   );

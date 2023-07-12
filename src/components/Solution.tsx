@@ -1,23 +1,26 @@
 import { FunctionComponent, useMemo } from "react";
 import CSS, { Property } from "csstype";
-import styles from "./BayesianRankingContainer.module.css";
+import styles from "./Solution.module.css";
 
-type BayesianRankingContainerType = {
-  rankingSystemText?: string;
-  matchmakingText?: string;
-  rankingSystemId?: string;
+type SolutionType = {
+  solutionHeadline?: string;
+  firstWireframe?: string;
+  secondWireframe?: string;
+  solutionText?: string;
+
 
   /** Style props */
   propAlignSelf?: Property.AlignSelf;
   propAspectRatio?: Property.AspectRatio;
 };
 
-const BayesianRankingContainer: FunctionComponent<
-  BayesianRankingContainerType
+const Solution: FunctionComponent<
+  SolutionType
 > = ({
-  rankingSystemText,
-  matchmakingText,
-  rankingSystemId,
+  solutionHeadline,
+  firstWireframe,
+  secondWireframe,
+  solutionText,
   propAlignSelf,
   propAspectRatio,
 }) => {
@@ -36,23 +39,22 @@ const BayesianRankingContainer: FunctionComponent<
   return (
     <section className={styles.solution1Group}>
       <div className={styles.group}>
-        <div className={styles.headline}>{rankingSystemText}</div>
+        <div className={styles.headline}>{solutionHeadline}</div>
         <div className={styles.paragraph}>
-          Lorem ipsum dolor sit amet consectetur. In ultrices vm ibendum
-          dignissim imperdiet augue amet nisi adipiscing
+          {solutionText}
         </div>
       </div>
       <div className={styles.wireframes} style={wireframesStyle}>
         <img
           className={styles.wireframeIcon}
           alt=""
-          src={matchmakingText}
+          src={firstWireframe}
           style={wireframeIconStyle}
         />
-        <img className={styles.wireframeIcon1} alt="" src={rankingSystemId} />
+        <img className={styles.wireframeIcon1} alt="" src={secondWireframe} />
       </div>
     </section>
   );
 };
 
-export default BayesianRankingContainer;
+export default Solution;

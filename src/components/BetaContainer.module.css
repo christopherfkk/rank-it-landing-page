@@ -47,7 +47,7 @@
   color: #000;
   text-align: left;
   display: inline-block;
-  height: 81.76px;
+  height: 150px;
   flex-shrink: 0;
 }
 .headline2,
@@ -84,7 +84,7 @@
 }
 .join {
   overflow: hidden;
-  padding: 0 10px;
+  padding: 0 30%;
   font-size: 40px;
   color: #000;
 }
@@ -139,9 +139,7 @@
   .paragram,
   .paragram1 {
     font-size: 18px;
-  }
-  .paragram1 {
-    height: 80px;
+    height: 200px;
   }
   .pilots {
     gap: 100px;

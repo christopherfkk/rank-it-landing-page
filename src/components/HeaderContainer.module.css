@@ -31,11 +31,7 @@
   justify-content: flex-start;
   gap: 20px;
 }
-.text2 {
-  position: relative;
-  line-height: 20px;
-}
-.button {
+button {
   border-radius: 20px;
   background-color: #d7323c;
   display: flex;
@@ -44,6 +40,14 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
+  position: relative;
+  line-height: 20px;
+  border: none;
+  font-family: "Bebas Neue";
+  color: white;
+}
+button:hover {
+  background-color: #ac2830;
 }
 .headline,
 .text {
@@ -141,13 +145,12 @@
     box-sizing: border-box;
   }
   .headline {
-    padding-bottom: 150px;
+    height: 926px;
+    box-sizing: border-box;
+    z-index: 2;
   }
-  .section {
-    gap: 0;
-  }
-  .headerSection,
-  .section {
-    padding-left: 0;
+  .headline {
+    margin-left: 10%;
+    margin-right: 5%;
   }
 }

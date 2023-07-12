@@ -73,7 +73,7 @@
 }
 .details {
   align-self: stretch;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -92,13 +92,14 @@
 }
 .section {
   padding: 100px;
+  padding-bottom: 200px;
   align-items: center;
   justify-content: flex-start;
   gap: 50px;
 }
 .problemSection {
   background-color: #f5f5f5;
-  overflow: hidden;
+  overflow: visible;
   align-items: flex-start;
   justify-content: center;
   text-align: center;
@@ -126,10 +127,10 @@
   .mdiswordCrossIcon {
     height: 93px;
   }
-  .paragraph {
-    flex: 1;
-  }
+  .paragraph,
+  .paragraph1,
   .paragraph2 {
+    flex: 1;
     height: 120px;
   }
   .section {
