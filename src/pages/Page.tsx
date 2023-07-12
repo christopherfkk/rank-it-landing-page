@@ -7,6 +7,7 @@ import BetaContainer from "../components/BetaContainer";
 import Form from '../components/FormContainer';
 import styles from "./Page.module.css";
 import headerStyles from "../components/HeaderContainer.module.css";
+import Footer from '../components/Footer';
 
 const Page: FunctionComponent = () => {
 
@@ -57,23 +58,7 @@ const Page: FunctionComponent = () => {
             <div id="form" style={{width: '100%'}}>
                 <Form/>
             </div>
-            <div className={styles.footerSection}>
-                <section className={styles.footer}>
-                    <img className={styles.logoIcon} alt="" src="/logo@2x.png"/>
-                    <div className={styles.contact}>
-                        <p className={styles.contactUs}>Contact us</p>
-                        <p className={styles.christopherfkkuniminervaedu}>
-                            christopherfkk@uni.minerva.edu
-                        </p>
-                        <p className={styles.christopherfkkuniminervaedu}>
-                            hugosyh@uni.minerva.edu
-                        </p>
-                        <p className={styles.christopherfkkuniminervaedu}>
-                            bentley@uni.minerva.edu
-                        </p>
-                    </div>
-                </section>
-            </div>
+            <Footer/>
         </div>
     );
 };

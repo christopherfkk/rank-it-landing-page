@@ -1,0 +1,52 @@
+.footerSection {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+    gap: 10%
+}
+
+.logo {
+  max-width: 100px; /* Allow the logo to adjust its width */
+  height: auto; /* Constrain the height to the maximum available */
+}
+
+
+.headline {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.paragraph {
+  font-family: Manrope;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 420px) {
+    .footerSection {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo {
+      max-width: 80px; /* Allow the logo to adjust its width */
+      height: auto; /* Constrain the height to the maximum available */
+    }
+    .headline {
+      font-family: "Bebas Neue";
+      font-size: 16px;
+    }
+
+    .paragraph {
+      font-family: Manrope;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+}

@@ -1,69 +1,95 @@
-.sectionHeaderText {
-  flex: 1;
-  position: relative;
-  line-height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 75px;
-}
-.sectionHeader,
-.solution,
 .solutionSection {
+  flex-direction: column;
   align-self: stretch;
   display: flex;
   justify-content: center;
-}
-.sectionHeader {
-  overflow: hidden;
-  flex-direction: row;
-  padding: 50px 0;
   align-items: center;
-}
-.solution,
-.solutionSection {
-  flex-direction: column;
-}
-.solution {
-  background-color: #fff2f2;
-  overflow: hidden;
-  padding: 100px 150px;
-  align-items: center;
-  gap: 50px;
-}
-.solutionSection {
-  align-items: flex-start;
   text-align: center;
   font-size: 72px;
   color: #171717;
   font-family: "Bebas Neue";
+  padding: 10%;
 }
+
+.sectionHeader {
+  flex-direction: row;
+  align-items: center;
+}
+
+.sectionHeaderText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10%
+}
+
+.solutionBlob {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20%;
+}
+
+.headline {
+  font-size: 40px;
+  font-family: "Bebas Neue";
+  margin-bottom: 5%;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Manrope;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  white-space: pre-line;
+}
+
+.wireframes {
+  flex: 1;
+  max-width: 30%;
+  display: flex;
+  justify-content: center; /* Center wireframe images horizontally */
+  align-items: center; /* Center wireframe images vertically */
+}
+
+.wireframe {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
 @media screen and (max-width: 1200px) {
   .solution {
     flex-direction: column;
   }
-  .solutionSection {
-    gap: 0;
-    padding-bottom: 0;
-    box-sizing: border-box;
+  .solutionBlob {
+    margin-right: 0;
+    padding-bottom: 10%
+  }
+  .wireframes {
+    max-width: 50%;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 660px) {
+  .wireframes {
+    flex-direction: column;
+    max-width: 80%;
+  }
   .sectionHeaderText {
     font-size: 48px;
     align-self: stretch;
     height: auto;
-    align-content: center;
-  }
-  .sectionHeader {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    box-sizing: border-box;
-    align-content: center;
-  }
-  .solution {
-    padding: 10%;
-    box-sizing: border-box;
     align-content: center;
   }
 }

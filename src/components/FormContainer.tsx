@@ -7,11 +7,15 @@ const Form = () => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '100vh',
+            height: '80vh',
             backgroundColor: "#f5f5f5"
         }
     }>
-      <Widget id="SGKofbao" style={{ width: '70%', height: '600px' }} className="my-form" />
+      <Widget id="SGKofbao"
+              style={{
+                  width: '70%',
+                  height: '80%',
+      }} className="my-form" />
     </div>
   );
 };
